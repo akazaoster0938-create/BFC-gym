@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Members</title>
+</head>
+<body>
+    <h1>Gym Members</h1>
+    <ul>
+        {% for m in members %}
+            <li>{{ m.name }} - {{ m.email }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
